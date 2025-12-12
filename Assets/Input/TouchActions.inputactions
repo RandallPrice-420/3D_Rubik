@@ -1,0 +1,34 @@
+{
+    "name": "TouchActions",
+    "maps": [
+        {
+            "name": "TouchActionMap",
+            "id": "7d6e2b5f-3e30-4e4b-91f3-99942889fffe",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "5c3f53af-fcab-4dc0-aef6-de8c1326b792",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a4618238-e5d5-4723-8217-0735913f1ad3",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
